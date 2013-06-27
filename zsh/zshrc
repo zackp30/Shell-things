@@ -40,6 +40,11 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 
 ### !!! ORIGINAL FILE STOPS HERE !!! ###
+
+
+# Comments within shell.
 setopt interactivecomments
 
-PS1="%K{blue} %* %K{green}%F{red}%n%k%F%K{green}@%K{green}%F{blue}%m %F{black}%~%F %f%F{blue}%#%b〘"
+
+# Prompt.
+PS1="%K{blue} %* %K{green}%F{red}%n%k%F%K{green}@%K{green}%F{blue}%m %F{black}%~%F %f%F{blue}%#%b "
