@@ -7,7 +7,7 @@ promptinit
 autoload -U colors && colors
 #PS1="%{$bg[green]}{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
 #PS1="%{$bg[green]%}{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
-PS1="%K{blue} %* %K{green}%F{red}%n%k%F%K{green}@%K{green}%F{blue}%m %F{yellow}%~%F %f%F{blue}%#%b〘"
+PS1="%K{blue} %* %K{green}%F{red}%n%k%F%K{green}@%K{green}%F{blue}%m %F{black}%~%F %f%F{blue}%#%b〘"
 #prompt adam1
 setopt histignorealldups sharehistory
 
