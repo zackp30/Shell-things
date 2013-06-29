@@ -48,3 +48,7 @@ setopt interactivecomments
 
 # Prompt.
 PS1="%K{blue} %* %K{green}%F{red}%n%k%F%K{green}@%K{green}%F{blue}%m %F{black}%~%F %f%F{blue}%#%b "
+
+
+### ALIASES ###
+alias ..="cd .."
